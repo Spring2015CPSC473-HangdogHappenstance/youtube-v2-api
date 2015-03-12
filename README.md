@@ -12,28 +12,33 @@
    > * http://en.wiktionary.org/w/api.php
    > Generic Database
    > * http://wikidata.org
+   > Video
+   > * http://youtube.com
 
 3. For each API, briefly describe how its functionality might be used in your project
 
    > The glosbe.com api is an alpha/beta staged api for translations. It could be used to implement multi-lingual support to the project.
-   > Wikitionary is a community-managed site with words and definitions, it is run on the MediaWiki platform. It offers data regarding the type of word and even definition information. It appears to use the standard MediaWiki API system, so data returned may require further processing for usability.
+   > Wikitionary is a community-managed site with words and definitions, it is run on the MediaWiki platform. It offers data regarding the type of word and even definition information. It appears to use the standard MediaWiki API system, so data returned may require further processing for usability. Same for the WikiData database.
+   > Youtube has videos and a deprecated API that doesn't force everyone to sign up for a token
 
 4. Choose one API from your list and create an example web page using jQuery AJAX to call the API and display the returned results
 
-   > TODO
+   > I went with the YouTube API because the MediaWiki-based API docs are not easy to read, and would take longer to get started with. The Glosbe JSON API just gives translations, and my use of the APIs wasn't very creative anyhow.
 
 5. Describe why you chose that particular API and provide a link to its documentation
 
-   > TODO
+   > https://developers.google.com/youtube/2.0/reference
+   > For all the potential objects that a user may like, YouTube videos may become one of them.
+   > I chose the YouTube API because it was simple enough to use and didn't require me to sign up to work with it. I was feeling a bit lazy on dealing with auth tokens.
 
 6. Discuss any potential issues that you can foresee with using this API in your project 
 
-   > TODO
+   > Version 2.0 is deprecated, so we'd need to jump to V3.0. But I believe most of the 3.0 actions all require an auth token too.
 
 7. Evaluate your experience creating the example web page and make a recommendation of whether your team should use this API or keep looking for better options 
 
-   > TODO
+   > We don't have any certainty that this API version will continue to be used or available. So we would need to jump to the new one someday sooner than later. We'd likely mix multiple API sources to our system.
 
 8. Describe how the example you wrote might be expanded to use additional functionality provided by the API
 
-   > TODO
+   > The newer version could add video "liking", "sharing" or even a full-screen mode. They also offer user-specific searching, channel searching and playlists.
