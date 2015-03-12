@@ -8,11 +8,16 @@
 
    > We could integrate many external APIs to the system and add conditional criteria to determine which API is queried for data validation. I located 2 potential dictionary APIs and a few misc APIs that could be used to validate the relationship data "likes,dislikes,enrolled,etc" as well as offer autocomplete in some fashion.
    > Dictionaries
+   >
    > * https://glosbe.com/a-api
    > * http://en.wiktionary.org/w/api.php
+   >
    > Generic Database
+   >
    > * http://wikidata.org
+   >
    > Video
+   >
    > * http://youtube.com
 
 3. For each API, briefly describe how its functionality might be used in your project
